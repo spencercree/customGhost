@@ -1,8 +1,12 @@
-.post {
+body {
+  font-family: 'Oswald', sans-serif; 
+}
+
+body:not(.post-template) .post {
   margin: 8rem auto;
   padding-bottom: 0;
   border-bottom: none;
-  color: #fff;
+  text-align: center;
 }
 
 .post a {
@@ -11,6 +15,35 @@
 
 .post:after {
   display: none;
+}
+
+.post-header h2 {
+  letter-spacing: 0.07em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+body:not(.post-template) .post-title {
+  font-size: 2.5rem;
+}
+
+.post-excerpt p {
+  letter-spacing: 0.2em;
+  display: inline;
+  color: #fff;
+  line-height: 2.5em;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.post-excerpt span {
+  padding: 5px 15px;
+  box-shadow: 0.4em 0 0 #D35400, -0.4em 0 0 #D35400;
+  background-color: #D35400;
+}
+
+.post-date {
+  border-left: 0;
+  color: #fff;
 }
 
 .main-header {
@@ -23,7 +56,6 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
   position: relative;
 }
 
@@ -48,3 +80,18 @@
 .imageBar:last-child {
   margin-bottom: 0;
 }
+
+@media(min-width:768px){
+  body:not(.post-template) .post-title {
+    font-size: 4.5rem;
+  }
+}
+
+@media(min-width:992px){
+  body:not(.post-template) .post-title {
+    font-size: 6rem;
+  }
+}
+
+
+

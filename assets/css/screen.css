@@ -781,7 +781,7 @@ body.nav-opened .nav {
     width: auto;
 }
 
-.menu-button {
+.home-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -800,35 +800,36 @@ body.nav-opened .nav {
     border-radius: 3px;
     transition: all 0.5s ease;
 }
-.menu-button:before {
+
+.home-button:before {
     font-size: 12px;
     font-weight: bold;
     margin-right: 6px;
     position: relative;
     top: 1px;
 }
-.menu-button:hover {
+.home-button:hover {
     background: #fff;
 }
-.menu-button:focus {
+.home-button:focus {
     outline: 0;
 }
 
 /* When the navigation is closed */
-.nav-closed .menu-button {
+.nav-closed .home-button {
     color: #fff;
     border-color: rgba(255, 255, 255, 0.6);
 }
-.nav-closed .menu-button:hover {
+.nav-closed .home-button:hover {
     color: #222;
 }
 
 /* When the navigation is closed and there is no cover image */
-.nav-closed .no-cover .menu-button {
+.nav-closed .no-cover .home-button {
     border-color: #BFC8CD;
     color: #9EABB3;
 }
-.nav-closed .no-cover .menu-button:hover {
+.nav-closed .no-cover .home-button:hover {
     border-color: #555;
     color: #555;
 }
@@ -845,7 +846,7 @@ body.nav-opened .nav {
     transition: all 0.3s ease;
 }
 
-.nav-opened .menu-button .word {
+.nav-opened .home-button .word {
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -1774,14 +1775,14 @@ body:not(.post-template) .post-title {
         height: 30px;
     }
 
-    .menu-button {
+    .home-button {
         padding: 0 5px;
         border-radius: 0;
         border-width: 0;
         color: #2e2e2e;
         background: transparent;
     }
-    .menu-button:hover {
+    .home-button:hover {
         color: #2e2e2e;
         border-color: transparent;
         background: none;
