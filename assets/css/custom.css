@@ -42,7 +42,7 @@ body:not(.post-template) .post {
   width: 100%;
 }
 
-.post a {
+.post-title a {
   color: #fff;
 }
 
@@ -82,6 +82,10 @@ body:not(.post-template) .post-title {
 .post-date {
   border-left: 0;
   color: #fff;
+}
+
+.post-content {
+  font-family: "Merriweather", serif;
 }
 
 .main-header {
