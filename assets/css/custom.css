@@ -9,14 +9,37 @@ body:not(.post-template) .post {
   text-align: center;
 }
 
+.header-left, .header-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-right {
+  width: 90%;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.header-right h2 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.3em;
+}
+
+.header-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
 .main-header-content {
   display: inline-block;
-  padding: 10px 17px;
   overflow: hidden;
 }
 
 .main-header .inner {
   overflow: hidden;
+  width: 100%;
 }
 
 .post a {
@@ -155,6 +178,22 @@ body:not(.post-template) .post-title {
   .imageBar {
     margin-bottom: 30px;
   }
+
+  .header-right {
+    padding-left: 30px;
+    width: 60%;
+    text-align: left;
+    margin-top: 0px;
+  }
+
+  .header-left {
+    padding-right: 15px;
+  }
+
+  .main-header-content {
+    margin-bottom: 30px;
+  }
+
 }
 
 @media(min-width:992px){
@@ -168,6 +207,10 @@ body:not(.post-template) .post-title {
 
   .post-excerpt span {
     padding: 3px 0;
+  }
+
+  .main-header-content {
+    margin-bottom: 75px;
   }
 }
 
