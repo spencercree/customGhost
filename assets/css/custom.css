@@ -1,5 +1,11 @@
 body {
   font-family: 'Oswald', sans-serif; 
+  font-size: 2.1rem;
+  line-height: 1.5em;
+}
+
+p {
+  margin: 0 0 1em 0;
 }
 
 body:not(.post-template) .post {
@@ -24,6 +30,7 @@ body:not(.post-template) .post {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   line-height: 1.3em;
+  text-shadow: 0 0.05em 0 rgba(0,0,0,0.5);
 }
 
 .header-image {
@@ -50,6 +57,10 @@ body:not(.post-template) .post {
   display: none;
 }
 
+.post {
+  line-height: 1.5;
+}
+
 .post-header h2 {
   letter-spacing: 0.07em;
   text-shadow: 1px 2px 0px rgba(52, 73, 94, 1);
@@ -59,7 +70,7 @@ body:not(.post-template) .post-title {
   font-size: 2rem;
 }
 
-.post-excerpt p {
+.post-excerpt > p {
   letter-spacing: 0.15em;
   display: inline;
   color: #000;
@@ -79,13 +90,13 @@ body:not(.post-template) .post-title {
   background-color: #ffea00;
 }
 
-.post-date {
+body:not(.post-template) .post-date {
   border-left: 0;
   color: #fff;
 }
 
 .post-content {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", serif !important;
 }
 
 .main-header {
@@ -179,6 +190,14 @@ body:not(.post-template) .post-title {
     font-size: 3rem;
   }
 
+  p {
+    margin: 0 0 1em 0;
+  }
+
+  .post {
+    line-height: 1.65em;
+  }
+
   .imageBar {
     margin-bottom: 30px;
   }
@@ -205,7 +224,7 @@ body:not(.post-template) .post-title {
     font-size: 4rem;
   }
 
-  .post-excerpt p {
+  .post-excerpt > p {
     font-size: 0.8em;
   }
 
