@@ -105,7 +105,7 @@ body:not(.post-template) .post-date {
 
 .imageBar {
   overflow: hidden;
-  background-image: url("http://www.patagonia.com/images/common/homepage/Home_BlackHole-Bags-GO.jpg");
+  background-color: #6C7A89;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 15px;
