@@ -294,6 +294,13 @@ Mailchimp
   text-align: center;
 }
 
+/****
+hide email catch after first page
+****/
+
+body.archive-template .email-catch{
+  display: none;
+}
 
 @media(min-width:768px){
   body:not(.post-template) .post-title {
